@@ -1,0 +1,41 @@
+{
+    "ingredients":
+    [
+        {
+            "name":"Riz",
+            "stock":200
+        },
+        {
+            "name":"Poireau",
+            "stock":1
+        },
+        {
+            "name":"Oignon jaune",
+            "stock":1
+        },
+        {
+            "name":"Ail",
+            "stock":1
+        },
+        {
+            "name":"Tofu fumé",
+            "stock":500
+        },
+        {
+            "name":"Tomate cerise",
+            "stock":250
+        },
+        {
+            "name":"Poivron rouge",
+            "stock":1
+        },
+        {
+            "name":"Yahourt",
+            "stock":13
+        },
+        {
+            "name":"Piment vert",
+            "stock":1
+        }
+    ]
+}
