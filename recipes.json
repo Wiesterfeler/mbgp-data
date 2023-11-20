@@ -1,101 +1,141 @@
 [
     {
-        "name":"Gallo Pinto",
-        "time":25,
-        "ingredients":
-        [
+        "name": "Gallo Pinto",
+        "time": 25,
+        "ingredients": [
             {
-                "ingredient":
-                {
-                    "name":"Riz",
-                    "stock":500
+                "ingredient": {
+                    "name": "Riz",
+                    "stock": 500,
+                    "unity": "MILLIGRAM"
                 },
-                "quantity":200
-            }],
-        "steps":
-        [
+                "quantity": 200
+            }
+        ],
+        "steps": [
             {
-                "position":1,
-                "description":"Faites cuire les haricots noirs"
+                "position": 1,
+                "description": "Faites cuire les haricots noirs"
             },
             {
-                "position":2,
-                "description":
-                "Faites cuire le riz"
+                "position": 2,
+                "description": "Faites cuire le riz"
             },
             {
-                "position":3,
-                "description":"Dans une poêle, chauffez l'huile d'olive à feu moyen."
+                "position": 3,
+                "description": "Dans une poêle, chauffez l'huile d'olive à feu moyen."
             },
             {
-                "position":4,
-                "description":"Ajoutez l'oignon, le poivron rouge et l'ail hachés. Faites-les sauter jusqu'à ce qu'ils soient tendres."
+                "position": 4,
+                "description": "Ajoutez l'oignon, le poivron rouge et l'ail hachés. Faites-les sauter jusqu'à ce qu'ils soient tendres."
             },
             {
-                "position":5,
-                "description":"Ajoutez les haricots noirs cuits à la poêle et mélangez bien avec les légumes."
+                "position": 5,
+                "description": "Ajoutez les haricots noirs cuits à la poêle et mélangez bien avec les légumes."
             },
             {
-                "position":6,
-                "description":"Ajoutez une pincée de piment rouge en poudre au mélange de haricots. Ajustez la quantité selon votre préférence pour le niveau de piquant."
+                "position": 6,
+                "description": "Ajoutez une pincée de piment rouge en poudre au mélange de haricots. Ajustez la quantité selon votre préférence pour le niveau de piquant."
             },
             {
-                "position":7,
-                "description":"Ajoutez le riz cuit à la poêle et remuez délicatement pour bien mélanger tous les ingrédients."
+                "position": 7,
+                "description": "Ajoutez le riz cuit à la poêle et remuez délicatement pour bien mélanger tous les ingrédients."
             },
             {
-                "position":8,
-                "description":"Une fois que tout est bien mélangé et chaud, retirez la poêle du feu."
+                "position": 8,
+                "description": "Une fois que tout est bien mélangé et chaud, retirez la poêle du feu."
             },
             {
-                "position":9,
-                "description":"Servez le Gallo Pinto dans des assiettes et garnissez éventuellement de coriandre fraîche hachée."
+                "position": 9,
+                "description": "Servez le Gallo Pinto dans des assiettes et garnissez éventuellement de coriandre fraîche hachée."
             }
         ]
     },
     {
-        "name":"Oeufs aux poireaux",
-        "time":20,
-        "ingredients":
-        [
+        "name": "Oeufs aux poireaux",
+        "time": 20,
+        "ingredients": [
             {
-                "ingredient":
-                {
-                    "name":"Poireau",
-                    "stock":1
+                "ingredient": {
+                    "name": "Poireau",
+                    "stock": 1,
+                    "unity": "NONE"
                 },
-                "quantity":1
+                "quantity": 1
             },
             {
-                "ingredient":
-                {
-                    "name":"Oeufs",
-                    "stock":4
+                "ingredient": {
+                    "name": "Oeufs",
+                    "stock": 4,
+                    "unity": "NONE"
                 },
-                "quantity":3
+                "quantity": 3
             },
             {
-                "ingredient":
-                {
-                    "name":"Crème liquide",
-                    "stock":60
+                "ingredient": {
+                    "name": "Crème liquide",
+                    "stock": 60,
+                    "unity": "CENTILITER"
                 },
-                "quantity":15
-                }
+                "quantity": 15
+            }
         ],
-        "steps":
-        [
+        "steps": [
             {
-                "position":1,
-                "description":"Faire cuire les poireaux pendant 8 minutes à la poêle"
+                "position": 1,
+                "description": "Faire cuire les poireaux pendant 8 minutes à la poêle"
             },
             {
-                "position":2,
-                "description":"Ajoutez la crème liquide, et laissez cuire 5 minutes"
+                "position": 2,
+                "description": "Ajoutez la crème liquide, et laissez cuire 5 minutes"
             },
             {
-                "position":3,
-                "description":"Ajoutez les oeufs, faire cuire pendant 5/6 minutes"
+                "position": 3,
+                "description": "Ajoutez les oeufs, faire cuire pendant 5/6 minutes"
+            }
+        ]
+    },
+    {
+        "name": "Salade de pâtes mozza",
+        "time": 10,
+        "ingredients": [
+            {
+                "ingredient": {
+                    "name": "Pâtes",
+                    "stock": 0,
+                    "unity": "MILLIGRAM"
+                },
+                "quantity": 200
+            },
+            {
+                "ingredient": {
+                    "name": "Boulette de mozzarella",
+                    "stock": 0,
+                    "unity": "MILLIGRAM"
+                },
+                "quantity": 100
+            },
+            {
+                "ingredient": {
+                    "name": "Huile d'olive",
+                    "stock": 0,
+                    "unity": "SPOON"
+                },
+                "quantity": 1
+            }
+        ],
+        "steps": [
+            {
+                "position": 1,
+                "description": "Faire cuire les pâtes"
+            },
+            {
+                "position": 2,
+                "description": "Mettre les boules de mozza dans les pâtes cuites"
+            },
+            {
+                "position": 3,
+                "description": "Mettre une cuillère d'huile d'olive"
             }
         ]
     }
